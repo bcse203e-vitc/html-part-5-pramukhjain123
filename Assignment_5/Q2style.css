@@ -1,0 +1,37 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+   }
+   .main-content {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping for responsiveness */
+    gap: 40px; /* Adds space between columns */
+    padding: 200px;
+    border:1px;
+    background-color: rgb(221, 221, 221);
+   }
+   .Card {
+    flex: 1; /* Distributes equal space */
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    border:1px;
+   }
+   .Card:hover
+   {
+    background-color: rgb(94, 255, 94);
+    color: white;
+    cursor:pointer;
+    box-shadow: 0 4px 8px rgb(124, 124, 124);
+    transform: scale(1.07);
+   }
+   @media (max-width: 768px) {
+    .main-content {
+    flex-direction: column; /* Stacks the columns vertically */
+    }
+    
+   }
