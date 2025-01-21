@@ -29,9 +29,3 @@ body {
     box-shadow: 0 4px 8px rgb(124, 124, 124);
     transform: scale(1.07);
    }
-   @media (max-width: 768px) {
-    .main-content {
-    flex-direction: column; /* Stacks the columns vertically */
-    }
-    
-   }
