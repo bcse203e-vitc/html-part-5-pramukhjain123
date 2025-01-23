@@ -1,0 +1,23 @@
+@keyframes colorChange {
+  0% {
+    color: rgb(0, 0, 55);
+  }
+  33% {
+    color: rgb(123, 160, 0);
+  }
+  66% {
+    color: rgb(108, 0, 0);
+  }
+  100% {
+    color: rgb(0, 105, 128);
+  }
+}
+.header {
+  animation-name: colorChange;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  transition: transform 0.4s ease;
+}
+.header:hover {
+  transform: translate(150px) scale(1.15);
+}
